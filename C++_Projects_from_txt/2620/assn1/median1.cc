@@ -65,8 +65,6 @@ int main()
     {
         std::cout << "Enter element " << count << " : ";
         std::cin >> data[i];
-
-        std::cout << '\n';
         count ++;
     }
 
