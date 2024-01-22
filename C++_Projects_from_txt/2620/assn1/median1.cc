@@ -124,7 +124,7 @@ double median(int *A, int n)
     }
     else
     {
-        double dec = ceil(n / 2.0);
+        double dec = floor(n / 2.0);
         avg = static_cast<int>(dec);
 
         x = A[avg];
